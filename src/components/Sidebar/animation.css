@@ -1,0 +1,123 @@
+.sidebar__title-icon, .sidebar__title-name {
+    animation: move1 .7s linear 1;
+}
+@keyframes move1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.sidebar__title-button {
+    animation: move2 2s linear 1;
+    /* animation-delay: 1s; */
+}
+@keyframes move2 {
+    0% {
+        opacity: 0;
+        transform: translateX(4rem);
+    }
+    70% {
+        opacity: 0;
+        transform: translateX(2rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.sidebar__list1 {
+    animation: move3 .5s linear 1;
+}
+@keyframes move3 {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.sidebar__list2 {
+    animation: move4 1s linear 1;
+}
+@keyframes move4 {
+    0% {
+        opacity: 0;
+        transform: translateY(-6rem);
+    }
+    70% {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.sidebar__list3 {
+    animation: move4 1.5s linear 1;
+}
+.sidebar__list4 {
+    animation: move4 2s linear 1;
+}
+.sidebar__list5 {
+    animation: move4 2.5s linear 1;
+}
+.sidebar__list6 {
+    animation: move4 3s linear 1;
+}
+.sidebar__list7 {
+    animation: move4 3.5s linear 1;
+}
+.sidebar__list8 {
+    animation: move4 4s linear 1;
+}
+.sidebar__profile {
+    animation: move4 4.5s linear 1;
+}
+
+.card-profile {
+    animation: move5 .5s linear 1;
+}
+@keyframes move5 {
+    0% {
+        opacity: 0;
+        transform: translateY(6rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card-profile__title {
+    animation: move6 .7s linear 1;
+}
+@keyframes move6 {
+    0% {
+        opacity: 0;
+        transform: translateY(6rem);
+    }
+    70% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card-profile__settings {
+    animation: move6 1s linear 1;
+}
+.card-profile__footer-info {
+    animation: move6 1.3s linear 1;
+}
+.card-profile__footer-version {
+    animation: move6 1.6s linear 1;
+}
